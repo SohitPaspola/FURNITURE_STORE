@@ -1,0 +1,33 @@
+.dashboard {
+  background-color: #ffffff;
+}
+
+.dashboard .image {
+  display: flex;
+  animation: image-load 500ms ease-in;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ANIMATION */
+
+@keyframes image-load {
+  0% {
+    transform: translateY(50%);
+  }
+  50% {
+    transform: translateZ(20%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@media (max-width: 670px) {
+  .image img {
+    margin-top: 5rem;
+  }
+}

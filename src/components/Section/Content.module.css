@@ -1,0 +1,32 @@
+.content{
+    width: 90%;
+    margin: 4rem auto;
+    color: #17183B;
+}
+
+.content h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 4rem auto;
+}
+
+.content h4{
+    font-weight: 700;
+    margin-bottom: 20px;
+    border-bottom: #333579 solid 1px;
+
+
+}
+
+.content p{
+    margin: 1rem 0;
+    font-weight: 400;
+    line-height: 16px;
+    color: #17183B;
+    letter-spacing: 0.02em;
+}
+
+.content h5{
+    color: #333579;
+    margin: 1rem 0;
+}

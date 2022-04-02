@@ -1,0 +1,30 @@
+.furniture {
+  background-color: #f5f5f5;
+}
+.furniture h2 {
+  font-weight: 700;
+}
+
+.category {
+  margin: 2rem auto;
+  align-items: center;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pathname {
+  border-bottom: 2px ridge #3aa39f;
+  margin-top: 5rem;
+  padding: 1rem 3rem;
+}
+
+@media (max-width: 670px) {
+  .category {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .pathname {
+    margin-top: 7rem;
+  }
+}

@@ -1,0 +1,165 @@
+.product-page {
+  background-color: #fff;
+}
+
+.product-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-section {
+  max-width: 30%;
+  height: auto;
+  margin-left: 4rem;
+}
+
+.path {
+  width: fit-content;
+  border-bottom: 2px solid #3aa39f;
+  margin-left: 4rem;
+  margin-top: 5rem;
+}
+
+.path h3 {
+  font-weight: 700;
+}
+
+.path button {
+  display: block;
+  max-width: 35px;
+  height: auto;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.product-info {
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.product-info h2 {
+  text-align: left;
+}
+
+.product-info p {
+  margin-top: 1.5rem;
+}
+
+.circle-icons {
+  margin: 1rem 0;
+}
+
+.cart-buttons {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.addtocart button {
+  margin-left: 1.5rem;
+  width: 90%;
+  height: 2.5rem;
+  background-color: #3aa39f;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.product-images {
+  max-width: 65%;
+  align-items: center;
+  margin: 1rem auto;
+}
+
+.product-images .product-img-cont {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.product-images .productimg {
+  margin-top: 3rem;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.product-thumb {
+  display: flex;
+  border: 1px ridge #3aa39f;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.thumb-image {
+  box-sizing: content-box;
+  vertical-align: middle;
+  margin: auto;
+  padding: 0 0.1rem;
+}
+
+.thumb-image img {
+  object-fit: fill;
+  width: 100%;
+  margin: 0.2rem 0;
+}
+
+.product-thumb img:hover,
+.product-thumb img:active {
+  border: 1px solid #3aa39f;
+}
+
+@media (max-width: 1250px) {
+  .product-images {
+    margin: 4rem auto;
+  }
+}
+
+@media (max-width: 1150px) {
+  .product-images {
+    align-self: center;
+    order: 1;
+  }
+  .product-section {
+    order: 2;
+  }
+  .product-div {
+    flex-direction: column;
+  }
+  .product-section {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: -4rem;
+  }
+  .path {
+    margin: 0;
+    padding: 0 1rem;
+  }
+
+  .product-images {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 670px) {
+  .path {
+    margin-top: 7rem;
+  }
+  .product-images {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 400px) {
+  .product-images {
+    width: 100%;
+  }
+  .product-thumb {
+    width: 100%;
+  }
+  .thumb-image {
+    width: 100%;
+  }
+}

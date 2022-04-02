@@ -1,0 +1,36 @@
+.alert {
+  position: fixed;
+  right: 0;
+  top: 0px;
+  width: 30%;
+  border-left: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0.2rem 1%;
+  align-items: center;
+  z-index: 10;
+  color: white;
+  background-color: #3aa39f;
+  box-shadow: 0px 0px 10px 3px black;
+}
+
+.alert p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.alert h2 {
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.error {
+  background-color: #57bdb9;
+  color: rgb(231, 8, 8);
+}
+
+.success {
+  background-color: #3aa39f;
+}

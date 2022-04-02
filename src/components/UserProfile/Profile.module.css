@@ -1,0 +1,19 @@
+.userprofile{
+    width: 50%;
+    background-color: #3aa39f;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30vh;
+    font-size: 2rem;
+}
+
+.userprofile button{
+    width: 12vw;
+    color: #3aa39f;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+

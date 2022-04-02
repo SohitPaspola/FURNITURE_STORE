@@ -1,0 +1,51 @@
+.address-list {
+  padding-bottom: 1rem;
+  border-bottom: 1px dashed #3aa39f;
+  margin-bottom: 2rem;
+}
+
+.address-name {
+  margin-bottom: 0.5rem;
+}
+
+.address-name h2 {
+  display: inline;
+}
+
+.address-name button {
+  border: 1px red;
+  float: right;
+  padding: 0 1rem;
+  background-color: inherit;
+  font-weight: 600;
+}
+
+.address-name button:hover,
+.address-name button:active {
+  border: 1px double #3aa39f;
+}
+
+.address-list label {
+  font-size: 20px;
+  padding-left: 1rem;
+  text-transform: capitalize;
+}
+
+.address-info {
+  margin-left: 1.8rem;
+}
+
+.address-info p {
+  text-transform: capitalize;
+  line-height: 20px;
+  font-size: 15px;
+  margin-bottom: 0.2rem;
+}
+
+.address-info .contact {
+  opacity: 0.5;
+  color: #3aa39f;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
